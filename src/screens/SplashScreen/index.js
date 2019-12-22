@@ -122,9 +122,8 @@ class SplashScreen extends Component {
           } else {
             console.log("TCL: SplashScreen -> componentDidMount -> Login")
             //TODO: connect ios when we get ios client id
-            if (Platform.OS == 'android') {
               this.props.navigation.navigate('Login');
-            }
+            
           }
         } else {
           this.props.navigation.navigate('Intro');
